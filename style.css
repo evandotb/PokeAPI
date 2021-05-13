@@ -24,8 +24,10 @@ h3 {
 
 #pokeCard {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    grid-gap: 20px;
+    grid-template-columns: 100px 50px 100px;
+    grid-template-rows: 80px auto 80px;
+    column-gap: 20px;
+    row-gap: 15px;
     padding-inline-start: 0;
 }
 
